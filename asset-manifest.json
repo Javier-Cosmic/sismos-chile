@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sismos-chile/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/sismos-chile/static/js/main.00f85d6d.chunk.js",
+    "main.js.map": "/sismos-chile/static/js/main.00f85d6d.chunk.js.map",
+    "runtime-main.js": "/sismos-chile/static/js/runtime-main.10cb7647.js",
+    "runtime-main.js.map": "/sismos-chile/static/js/runtime-main.10cb7647.js.map",
+    "static/js/2.7d38955a.chunk.js": "/sismos-chile/static/js/2.7d38955a.chunk.js",
+    "static/js/2.7d38955a.chunk.js.map": "/sismos-chile/static/js/2.7d38955a.chunk.js.map",
+    "index.html": "/sismos-chile/index.html",
+    "precache-manifest.cc362fbfdf5b884f4fb7833e807eaf46.js": "/sismos-chile/precache-manifest.cc362fbfdf5b884f4fb7833e807eaf46.js",
+    "service-worker.js": "/sismos-chile/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/sismos-chile/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.7d38955a.chunk.js.LICENSE.txt": "/sismos-chile/static/js/2.7d38955a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10cb7647.js",
+    "static/js/2.7d38955a.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.00f85d6d.chunk.js"
+  ]
+}
