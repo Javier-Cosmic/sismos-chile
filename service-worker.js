@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sismos-chile/precache-manifest.cc362fbfdf5b884f4fb7833e807eaf46.js"
+  "/sismos-chile/precache-manifest.0e85d93f2978a4ca89a61319a52fa867.js"
 );
 
 self.addEventListener('message', (event) => {
