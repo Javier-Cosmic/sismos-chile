@@ -33,7 +33,12 @@ function App() {
           secondary: {
             main: '#263238'
           },
-          type: 'dark'  
+          type: 'dark',
+
+          background: {
+             paper: '#222222',
+             default: '#191919' 
+          }  
         },
         typography: {
           fontFamily: 'Ubuntu'
@@ -41,13 +46,13 @@ function App() {
     }
   )
 
-  const [darkMode, setDarkMode] = useState(false) 
+  const [darkMode, setDarkMode] = useState(false);
 
-  const [sismo, setSismo] = useState([])
-  const [loading, setLoading] = useState(false)
+  const [sismo, setSismo] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect( () => {
-
+    
       const getApi = async () => {
           const sismos = await axios.get('https://api.gael.cl/general/public/sismos')
           // const data = sismos.data
@@ -59,6 +64,7 @@ function App() {
       getApi()
 
   }, [])
+ 
 
   const context = {
     sismo: sismo, 

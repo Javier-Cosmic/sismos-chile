@@ -15,7 +15,7 @@ const Maps = ({isMarkerShown, sismo}) => {
 
     return (
         <>
-        <GoogleMap 
+        <GoogleMap
             defaultZoom={9}
             defaultCenter={{ lat: lat(), lng: lng()}}
             mapTypeId='hybrid'

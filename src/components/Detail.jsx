@@ -43,10 +43,16 @@ const Detail = () => {
         
         <Grid key={i} item xs={12} sm={6} md={4} xl={3} className={classes.gridItem}>
           <Card>
-            <CardHeader title={sismo.RefGeografica} subheader={sismo.Fecha} />
+            <CardHeader title='Ubicación Geográfica:' subheader={sismo.RefGeografica} />
+            <CardContent>
+            <Typography variant="subtitle1">
+              Fecha: {sismo.Fecha}
+            </Typography>
+
+            </CardContent>
             <Maps 
               googleMapURL={url}
-              containerElement={ <div style={{height: '400px'}}/>}
+              containerElement={ <div style={{height: '350px'}}/>}
               mapElement={ <div style={{height: '100%'}}/>}
               isMarkerShown
               loadingElement={ <Loading /> }

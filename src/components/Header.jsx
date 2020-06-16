@@ -48,8 +48,12 @@ const Header = () => {
         const fecha = `${dia.slice(-2)}/${mes.slice(-2)}/${year}`
 
         return fecha
-  }  
-
+  }
+  
+  const changeDarkMode = () => {
+    setDarkMode(!darkMode)
+  }
+  
   const classes = styles()
 
   return (
@@ -59,7 +63,7 @@ const Header = () => {
               <Typography variant="h6" align="left" className={classes.title}>
                   Sismos en Chile - Última actualización {getDate()}
               </Typography>
-              <PurpleSwitch color="primary" checked={darkMode} onChange={() => setDarkMode(!darkMode)} />
+              <PurpleSwitch color="primary" checked={darkMode} onChange={changeDarkMode} />
             </Toolbar>
           </AppBar>
       <Toolbar />
